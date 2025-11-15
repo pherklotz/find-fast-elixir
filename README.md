@@ -1,21 +1,15 @@
-# FindFast
+# Find Fast (Elixir Edition)
 
-**TODO: Add description**
+Simple find tool that searches for regular expressions in files. The goal of this 
+project is to learn [Elixir](https://elixir-lang.org/). So its not recommended to
+use this tool in production. 
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `find_fast` to your list of dependencies in `mix.exs`:
+Preconditions: Install Erlang and Elixir
 
-```elixir
-def deps do
-  [
-    {:find_fast, "~> 0.1.0"}
-  ]
-end
-```
+- Clone the project
+- Windows: Run `.\fifa.bat <File Glob> <Search Term Regex>`
+- Linux: Run `mix run -e "FindFast.CLI.main(System.argv) " -- <File Glob> <Search Term Regex>`
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/find_fast>.
 
